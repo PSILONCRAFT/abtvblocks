@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "abtvblocks",
+  "version": "${version}",
+
+  "name": "aBTV Blocks",
+  "description": "Adds custom blocks to vanilla minecraft!",
+  "authors": [
+    "Psiloncraft"
+  ],
+  "contact": {
+    "homepage": "https://psiloncraft.com/"
+    },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.psiloncraft.abtvblocks.abtvblocks"
+    ]
+  },
+  "mixins": [
+    "abtvblocks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
