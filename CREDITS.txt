@@ -1,0 +1,39 @@
+All Textures by PSILONCRAFT
+http://www.psiloncraft.com
+
+aBTV Texture pack A Big Taste Of Vasten Texture Pack and abtvblocks
+Resource Pack for Minecraft
+
+TERMS OF USE
+
+By downloading aBTV Texturepack you accept the following simple Terms of Use:
+
+- These Terms of Use are subject to change at any time, and you will endeavour to refamiliarise yourself with them before any subsequent downloads.
+- The Terms of Use on the official psiloncraft website (https://www.psiloncraft.com) supersede anything below.
+- aBTV Texture pack is a resourcepack containing many different files; mainly textures in PNG format and 3D models in JSON format.
+- aBTV Texture pack has been tested as much as possible, but it may contain bugs. If you find one, you can report it on the Discord (https://discord.gg/FktWMju).
+- aBTV Texture pack has been scanned for viruses and malware and does not contain any (resourcepacks do not contain any executable files).
+- aBTV Texture pack is downloadable only if you use links available on the official page.
+- In the unlikely event the pack causes damage to your computer aBTV Texture pack takes no responsibility for any damage rendered.
+
+As a user of aBTV Texture pack, you know that you ARE authorised to:
+
+✓ decompile, alter and remix aBTV Texture pack for personal use. This means you will not share the altered pack publicly.
+✓ decompile, alter and remix aBTV Texture pack for exclusive use in online videos if, and only if, you add due credits in video description (with a working link to www.psiloncraft.com):
+  “aBTV Texture pack by https://www.psiloncraft.com”.
+✓ monetise online videos using aBTV Texture pack if, and only if, you add due credits in video description (with a working link to www.psiloncraft.com):
+  “Devorian Steampunk resource pack by https://mc.devorian.com”.
+✓ decompile, alter and remix aBTV Texture pack for use in non-commercial software if, and only if, you add due credits in a visible place (with a working link to www.psiloncraft.com):
+  “Textures/3D Models/Sounds from aBTV Texture pack by https://www.psiloncraft.com”.
+✓ decompile, alter and remix aBTV Texture pack for use in other games (i.e. make a “port”) if, and only if, there is no official release by aBTV Texture pack, and you do not monetize the work in any way and you add due credits in a visible place (with a working link to www.psiloncraft.com):
+  “Textures/3D Models/Sounds from aBTV Texture pack by https://www.psiloncraft.com”.
+
+For any other reason than those previously stated you agree you ARE NOT authorised to:
+
+× modify, copy, host, mirror, publish, transfer, license, distribute, transmit, sell, monetise, reproduce, remix, alter or decompile aBTV Texture pack.
+× create a remixpack using one or more files from aBTV Texture pack and redistribute it.
+
+If you do not agree with one or more of above terms, do not use aBTV Texture pack!
+
+Abtv Texture pack A Big Taste of Vasten is owned by www.psiloncraft.com
+Abtvblocks Mod is owned by www.psiloncraft.com
