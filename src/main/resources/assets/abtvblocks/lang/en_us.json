@@ -1,4 +1,6 @@
 {
   "item.abtvblocks.psilonium.ingot": "Psilonium Ingot",
-  "item.abtvblocks.psilonium.nugget": "Psilonium Nugget"
+  "item.abtvblocks.psilonium.nugget": "Psilonium Nugget",
+
+  "block.abtvblocks.psilonium.block": "Psilonium Block"
 }

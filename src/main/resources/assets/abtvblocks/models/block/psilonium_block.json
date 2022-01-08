@@ -1,0 +1,6 @@
+{
+  "parent": "blocks/all",
+  "textures":{
+    "all": "abtvblocks:block/psilonium_block"
+  }
+}

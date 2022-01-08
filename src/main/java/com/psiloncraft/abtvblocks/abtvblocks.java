@@ -1,5 +1,6 @@
 package com.psiloncraft.abtvblocks;
 
+import com.psiloncraft.abtvblocks.block.ModBlocks;
 import com.psiloncraft.abtvblocks.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
@@ -13,5 +14,6 @@ public class abtvblocks implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
