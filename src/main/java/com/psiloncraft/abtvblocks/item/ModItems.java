@@ -9,14 +9,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-
-    public static final Item PSILONIUM_INGOT;
-
-    static {
-        PSILONIUM_INGOT = registerItem("psilonium_ingot",
+    public static final Item PSILONIUM_INGOT = registerItem("psilonium_ingot",
                 new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    }
-
+    public static final Item PSILONIUM_NUGGET = registerItem("psilonium_nugget",
+                new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(abtvblocks.MOD_ID, name), item);
