@@ -2,5 +2,9 @@
   "item.abtvblocks.psilonium.ingot": "Psilonium Ingot",
   "item.abtvblocks.psilonium.nugget": "Psilonium Nugget",
 
-  "block.abtvblocks.psilonium.block": "Psilonium Block"
+  "block.abtvblocks.psilonium.block": "Psilonium Block",
+  "block.abtvblocks.mud.block": "Mud Block",
+  "block.abtvblocks.mud.bricks": "Mud Bricks",
+
+  "itemGroup.abtvblocks.ABTV": "aBTV Blocks"
 }

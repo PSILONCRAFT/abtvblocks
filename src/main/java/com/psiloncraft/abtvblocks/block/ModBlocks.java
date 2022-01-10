@@ -1,27 +1,34 @@
 package com.psiloncraft.abtvblocks.block;
 
 import com.psiloncraft.abtvblocks.abtvblocks;
+import com.psiloncraft.abtvblocks.item.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public  static final Block PSILONIUM_BLOCK = registerBlock("psilonium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()),ItemGroup.MISC);
-    private static  Block registerBlock(String name, Block block, ItemGroup group){
-        registerBlockItem(name, block, group);
+    public static final Block PSILONIUM_BLOCK = registerBlock("psilonium_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()));
+
+    public static final Block MUD_BLOCK = registerBlock("mud_block",
+            new Block(FabricBlockSettings.of(Material.SOIL).strength(0.5f,1.0f)));
+    public static final Block MUD_BRICKS = registerBlock("mud_bricks",
+            new Block(FabricBlockSettings.of(Material.SOIL).strength(1.5f,1.5f)));
+
+    private static Block registerBlock(String name, Block block){
+        registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(abtvblocks.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup group){
+    private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registry.ITEM, new Identifier(abtvblocks.MOD_ID, name),
-            new BlockItem(block, new FabricItemSettings().group(group)));
+            new BlockItem(block, new FabricItemSettings().group(ModItemGroups.ABTV)));
     }
 
     public static void registerModBlocks(){
